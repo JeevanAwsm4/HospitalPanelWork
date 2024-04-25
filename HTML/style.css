@@ -1,0 +1,176 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+div.upper {
+    position: relative;
+    width: 299px;
+    height: 99px;
+    top: 51px;
+    left: 352px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+div.upper h1 {
+    font-size: 40px;
+}
+
+div.upper p {
+    color: #838383;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+div.upper a {
+    color: #5E3FE3;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    bottom: 49px;
+    left: 93px;
+}
+
+div.upper p {
+    position: relative;
+    bottom: 15px;
+}
+
+div.main {
+    width: 990px;
+    height: 559px;
+    position: relative;
+    left: 352px;
+    top: 150px;
+    border: 3px solid #5E3FE3;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+div.main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 15px;
+    top: 40px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b4fe6;
+}
+
+section.wrapper {
+    width: 990px;
+}
+
+button {
+    background-color: #5E3FE3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    width: 883px;
+    height: 58px;
+    font-size: 21px; position: relative;
+    bottom: 30px;
+    top: 100px;
+}
+
+
+select.lone {
+    width: 428px;
+    height: 58px;
+    border: 1px solid #5F0F40;
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    top: 107px;
+}
+
+select.ltwo{
+    width: 428px;
+    height: 58px;
+    border: 1px solid #5F0F40;
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 500px;
+    bottom: 58px;
+    top: 50px;
+}
+
+label.lthree {
+    color: #5E3FE3;
+    font-size: 18px;
+    position: relative;
+    left: 80px;
+    top: 129px;
+}
+input[type="datetime-local"] {
+    width: 428px;
+    height: 58px;
+    border: 1px solid #5F0F40;
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    bottom: -95px;
+}
+
+input[type="password"] {
+    width: 428px;
+    height: 58px;
+    border: 1px solid #5F0F40;
+    border-radius: 10px;
+    font-size: 20px;
+    position: relative;
+    left: 500px;
+    bottom: 10px;
+    
+}
+
+div.last p {
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 190px;
+    font-size: 21px;
+}
+
