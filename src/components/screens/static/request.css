@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-    font-family: 'Poppins', sans-serif;
+html {
+    font-family: 'Inter', sans-serif;
 }
 
-div.upper {
+div.request-upper {
     position: relative;
     width: 299px;
     height: 99px;
@@ -14,17 +12,17 @@ div.upper {
     opacity: 0px;
 }
 
-div.upper h1 {
+div.request-upper h1 {
     font-size: 40px;
 }
 
-div.upper p {
+div.request-upper p {
     color: #838383;
     font-size: 15px;
     font-weight: 600;
 }
 
-div.upper a {
+div.request-upper a {
     color: #5E3FE3;
     font-size: 15px;
     text-decoration: none;
@@ -34,12 +32,12 @@ div.upper a {
     left: 93px;
 }
 
-div.upper p {
+div.request-upper p {
     position: relative;
     bottom: 15px;
 }
 
-div.main {
+div.request-main {
     width: 990px;
     height: 559px;
     position: relative;
@@ -51,7 +49,7 @@ div.main {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
-div.main h1 {
+div.request-main h1 {
     text-align: center;
     margin-bottom: 20px;
     position: relative;
@@ -59,17 +57,17 @@ div.main h1 {
     top: 40px;
 }
 
-.form-group {
+.request-form-group {
     margin-bottom: 15px;
 }
 
-label {
+.request-label {
     display: block;
     margin-bottom: 5px;
 }
 
-input,
-select {
+.input-request-edit,
+.request-select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -81,7 +79,7 @@ input[type="checkbox"] {
     width: auto;
 }
 
-button {
+.request-submit {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -90,15 +88,15 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.request-submit:hover {
     background-color: #6b4fe6;
 }
 
-section.wrapper {
+section.request-wrapper {
     width: 990px;
 }
 
-button {
+.request-submit {
     background-color: #5E3FE3;
     color: white;
     padding: 10px 20px;
@@ -115,7 +113,7 @@ button {
 }
 
 
-select.lone {
+select.request-lone {
     width: 428px;
     height: 58px;
     border: 1px solid #5F0F40;
@@ -126,7 +124,7 @@ select.lone {
     top: 107px;
 }
 
-select.ltwo{
+select.request-ltwo{
     width: 428px;
     height: 58px;
     border: 1px solid #5F0F40;
@@ -138,7 +136,7 @@ select.ltwo{
     top: 50px;
 }
 
-label.lthree {
+label.request-lthree {
     color: #5E3FE3;
     font-size: 18px;
     position: relative;
@@ -156,7 +154,7 @@ input[type="datetime-local"] {
     bottom: -95px;
 }
 
-input[type="password"] {
+.request-password {
     width: 428px;
     height: 58px;
     border: 1px solid #5F0F40;
@@ -168,11 +166,15 @@ input[type="password"] {
     
 }
 
-div.last p {
+div.request-last p {
     font-weight: 600;
     text-align: center;
     position: relative;
     top: 190px;
     font-size: 21px;
 }
-
+.input-request-edit {
+    margin-left: 59px; 
+    position: relative;
+    top: 150px;
+}

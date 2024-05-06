@@ -6,7 +6,9 @@ import NotAvailable from './components/screens/NotAvailable';
 import Home from './components/screens/Home';
 import styled from "styled-components";
 import PanelNav from './components/includes/PanelNav'
-import Request from './components/screens/Request'
+import Request from './components/screens/Request';
+import Header from './components/includes/Header';
+import Report from './components/screens/Report';
 function App() {
   return (
   <>
@@ -24,10 +26,16 @@ function App() {
                   </Routes>
                   <PanelRouteContainer>
                       <Routes>
+                        <Route path='*' element={<Header />} />
+                      </Routes>
+                      <Routes>
                           <Route path='home' element={<Home />} />
                       </Routes>
                       <Routes>
                           <Route path='request' element={<Request />} />
+                      </Routes>
+                      <Routes>
+                          <Route path='report' element={<Report />} />
                       </Routes>
                   </PanelRouteContainer>
               </Container>
