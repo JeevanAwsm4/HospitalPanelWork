@@ -20,41 +20,48 @@ div.bax div.inbax{
 	padding-bottom:20px;
 	padding-right:10px;
 	padding-left:10px;
-} div.bax div.inbax span.patient{
+} 
+div.bax div.inbax span.patient{
 	display:flex;
 	justify-content:space-between;
 	align-items: center;
-	border: 1px solid;
+	border: 1px solid #000;
 	margin-bottom: 30px;
 	border-radius : 10px;
 	padding : 15px;
-} div.bax div.inbax span.patient h5{
-	color: #5E3FE3;
+	
+} 
+div.bax div.inbax span.patient h5{
+	color: #000;
 	margin-left: 20px;
 	margin-top:0px !important;
 	margin-bottom : 0px !important;
 	font-weight:700;
 	font-size:18px;
-} div.bax div.inbax span.patient .patient_name {
+} 
+div.bax div.inbax span.patient .patient_name {
 	text-align: left;
 	display: flex;
 	align-items: center;
 	justify-content: start;
 	width : 20%;
-} div.bax div.inbax span.patient .door_sign {
+} 
+div.bax div.inbax span.patient .door_sign {
 	width : 20%;
 	display: flex;
 	justify-content: start;
 	align-items: center;
-} div.bax div.inbax span.patient h3{
+} 
+div.bax div.inbax span.patient h3{
     font-weight:700;
-} div.bax div.inbax span.patient h4{
+	margin : 0px;
+	color : #000;
+} 
+div.bax div.inbax span.patient h4{
 	padding: 0px;
 	margin-right: 10px;
 }
-#report section.wrapper div.right div.bax div.inbax span.patient div.report{
-	margin-right: 20px;
-} div.bax div.inbax span.patient a.report11{
+div.bax div.inbax span.patient a.report11{
 	display:flex;
 	justify-content:space-between;
 	align-items: center;
@@ -65,13 +72,16 @@ div.bax div.inbax{
 	color:#fff;
 	padding:10px 25px 10px 25px;
 	margin-right:20px;
-} div.bax div.inbax span.patient a.report11 img {
+} 
+div.bax div.inbax span.patient a.report11 img {
 	height : 15px;
 	margin-left: 10px;
-} div.bax div.inbax span.patient h4{
+} 
+div.bax div.inbax span.patient h4{
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
+	margin : 0px;
 }
 div.negative{
 	border:1px solid #D92802;
@@ -110,20 +120,21 @@ h4.positive{
 }
 h4.negative{
 	color:#D92802;
-} div.bax div.box1{
-	border:1px solid #5E3FE3;
+} 
+div.bax div.box1{
+	border:1px solid #000;
 	border-radius:15px;
 	align-items:center;
-} div.bax div.box1 .did{
+} 
+div.bax div.box1 .did{
 	display: flex;
 	justify-content: space-between;
 	padding : 20px;
-} div.bax div.box2{
-	border:1px solid #5E3FE3;
+} 
+div.bax div.box2{
+	border:1px solid #000;
 	border-radius:15px;
-
 }
-
 span.patient{
 	position: relative;
 }

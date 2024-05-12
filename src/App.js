@@ -9,6 +9,9 @@ import PanelNav from './components/includes/PanelNav'
 import Request from './components/screens/Request';
 import Header from './components/includes/Header';
 import Report from './components/screens/Report';
+import Contact from './components/screens/Contact';
+import Subscribe from './components/screens/Subscribe'
+
 function App() {
   return (
   <>
@@ -17,6 +20,7 @@ function App() {
           <Route path='*' Component={Login} />
           <Route path='signup' Component={Signup} />
           <Route path='panel' Component={NotAvailable} />
+          <Route path='subscribe' element={<Subscribe />} />
           <Route
                 path='/hospital-panel/*'
                 element={
@@ -36,6 +40,9 @@ function App() {
                       </Routes>
                       <Routes>
                           <Route path='report' element={<Report />} />
+                      </Routes>
+                      <Routes>
+                          <Route path='contact' element={<Contact />} />
                       </Routes>
                   </PanelRouteContainer>
               </Container>
