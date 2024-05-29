@@ -36,13 +36,13 @@ export default function Login(){
                                 </div>
                                 <form action="" class="login">
                                     <div class="input-group">
-                                        <input type="text" class="input" placeholder="Enter Username"/>
+                                        <input type="text" class="input" placeholder="Enter Username" required />
                                     </div>
                                     <div class="input-group">
-                                        <input type="password" class="input" placeholder="Enter Password"/>
+                                        <input type="password" class="input" placeholder="Enter Password" required />
                                     </div>
                                     <div class="submit">
-                                        <button type="submit" class="btn">Login Securely</button> <img src={Security} alt="login" />
+                                        <button type="submit" class="btn">Login Securely <img src={Security} alt="login" /></button> 
                                     </div>
                                 </form>
                                 <p>Don't have a account? Register <span><Link to="/signup">here.</Link></span></p>

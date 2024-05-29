@@ -6,7 +6,7 @@ import Facebook from '../media/auth/facebook.svg';
 import Instagram from '../media/auth/instagram.svg';
 import Mail from '../media/auth/mail.svg';
 import Security from '../media/auth/lock.svg';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 
 export default function Signup(){
     return (
@@ -38,38 +38,40 @@ export default function Signup(){
                                     <div className="container">
                                         <div className="sub-left">
                                             <div class="input-group">
-                                                <input type="text" class="input" placeholder="Username"/>
+                                                <input type="text" class="input" placeholder="Username" required />
                                             </div>
                                             <div class="input-group">
-                                                <input type="password" class="input" placeholder="Password"/>
+                                                <input type="password" class="input" placeholder="Password" required />
                                             </div>
                                             <div class="input-group">
-                                                <input type="password" class="input" placeholder="Confirm Password"/>
+                                                <input type="password" class="input" placeholder="Confirm Password" required />
                                             </div>
                                             <div class="input-group">
-                                                <input type="email" class="input" placeholder="Email"/>
+                                                <input type="email" class="input" placeholder="Email" required />
                                             </div>
                                         </div>
                                         <div className="sub-right">
                                             <div class="input-group">
-                                                <input type="number" class="input" placeholder="Phone No."/>
+                                                <input type="number" class="input" placeholder="Phone No." required />
                                             </div>
                                             <div class="input-group">
-                                                <input type="text" class="input" placeholder="Hospital Name"/>
+                                                <input type="text" class="input" placeholder="Hospital Name" required />
                                             </div>
                                             <div class="input-group">
-                                                <input type="text" class="input" placeholder="Hospital Adress"/>
+                                                <input type="text" class="input" placeholder="Hospital Adress" required />
                                             </div>
                                             <div class="input-group">
-                                                <input type="text" class="input" placeholder="City"/>
+                                                <input type="text" class="input" placeholder="City" required />
                                         </div>
                                         </div>
                                     </div>
                                     <div class="submit">
-                                        <button type="submit" class="btn"><Link to='../panel'>Register</Link></button> <img src={Security} alt="login" />
+                                        <Link to='../panel'>    
+                                            <button type="submit" class="btn">Register <img src={Security} alt="login" /></button> 
+                                        </Link>
                                     </div>
                                 </form>
-                                <p>Have a account? Login <span><a>here.</a></span></p>
+                                <p>Do you have an account? Login <span><NavLink to='../login'>here.</NavLink></span></p>
                             </div>
                         </div>
                     </div>

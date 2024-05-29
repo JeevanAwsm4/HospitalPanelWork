@@ -14,19 +14,19 @@ export default function
             <nav>
                 <ul>
                     <li>
-                        <NavLink className={({isActive}) => isActive ? "active" : ""} >
+                        <NavLink className={({isActive}) => isActive ? "active" : ""} to='home'>
                             <img src={require('../assets/images/main/home-icon.png')} alt="icon" />
                             <p>Home</p>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink className={({isActive}) => isActive ? "active" : ""} to='request-blood'>
+                        <NavLink className={({isActive}) => isActive ? "active" : ""} to='request'>
                             <img src={require('../assets/images/main/blood.png')} alt="icon" />
                             <p>Request</p>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink className={({isActive}) => isActive ? "active" : ""} to='contact-donors'>
+                        <NavLink className={({isActive}) => isActive ? "active" : ""} to='contact'>
                             <img src={require('../assets/images/main/contact-icon.png')} alt="icon" />
                             <p>Contact</p>
                         </NavLink>

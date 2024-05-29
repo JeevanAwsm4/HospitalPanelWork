@@ -1,6 +1,6 @@
 import './App.css';
-import Login from './components/screens/login'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from './components/screens/login'
 import Signup from './components/screens/signup'
 import NotAvailable from './components/screens/NotAvailable';
 import Home from './components/screens/Home';
@@ -11,6 +11,8 @@ import Header from './components/includes/Header';
 import Report from './components/screens/Report';
 import Contact from './components/screens/Contact';
 import Subscribe from './components/screens/Subscribe'
+import LiveChart from './components/screens/composition';
+import Subscription from './components/screens/subscription';
 
 function App() {
   return (
@@ -43,6 +45,12 @@ function App() {
                       </Routes>
                       <Routes>
                           <Route path='contact' element={<Contact />} />
+                      </Routes>
+                      <Routes>
+                          <Route path='city-composition' element={<LiveChart />} />
+                      </Routes>
+                      <Routes>
+                          <Route path='subscription' element={<Subscription />} />
                       </Routes>
                   </PanelRouteContainer>
               </Container>
